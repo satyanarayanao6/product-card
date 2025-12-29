@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            display: flex;
+        }
+        .nav1{
+            display: flex;
+            margin-left: 120px;
+            margin-top: 20px;
+        }
+        .nav1>p{
+padding-left: 30px;
+
+        }
+        .text{
+            margin-left: 100px;
+             width: 300px;
+             
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+        }
+        .text:focus{
+             background-color: #b0aeac;
+             border-color: rgba(4, 19, 19, 0.818);
+             
+        }
+        .img1{
+            margin-left: 90px;
+        }
+    .card1 {
+    width: 280px;
+    background: #fff;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    margin-left: 30px;
+}
+
+
+
+.image img {
+     width: 100%;
+    height: 200px;
+    object-fit:contain;
+}
+
+.details {
+    padding: 15px;
+    text-align: center;
+}
+
+.details h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.rating {
+    color: gold;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.price span {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+button {
+    margin-top: 12px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #ff6f00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #990f05fc;
+}
+.card1:hover{
+    transform: translateY(-20px);
+    background-color: #4e4d4d;
+}
+.line1{
+    display: flex;
+    margin-left: 45px;
+}
+.mob{
+     margin-top: 12px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #c40f0f;
+    color: #fff;
+    font-size: 16px;
+   cursor: pointer;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.mob:hover{
+    background-color: #888;
+}
+    .add1{
+        margin-left: 40px;
+    }
+
+  .child{
+            display: inline-block;
+            position: relative;
+            padding-left: 8%;
+            
+        }
+        .sub{
+            display: none;
+            position: absolute;
+           /* background-color: #888; */
+           background-color: black;
+           padding: 20px;
+           border-radius: 15%;
+        
+        
+        }
+        .sub>a{
+            text-decoration: none;
+            font-size:larger;
+            color: rgb(229, 232, 236);
+
+            
+            
+        }
+        .child:hover .sub{
+            display: block;
+        }
+        .ad:hover{
+            color: #27ae60;
+        }
+        .a{
+            text-decoration: none;
+            color: black;
+        }
+        .a:hover{
+            color: #27ae60;
+            background-color:black;
+            padding: 10px;
+            border-style: solid;
+            border-color: #fff;
+            border-radius: 20%;
+        }
+        .foot{
+            width: 1350px;
+        }
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .h{
+            margin-left: 35px;
+        }
+    </style>
+</head>
+<body>
+    <nav  class="nav">
+        <img src="./328-3288911_logo-flipkart-png-flipkart-logo-white-transparent-clipart__1_-removebg-preview.png" width=300px height="80px">
+        <div class="nav1">
+            <div class="child">
+                <p>ELECTRONICS</p>
+                <div class="sub">
+                   <a  class="ad" href="#hp">Headphones</a>
+                    <a class="ad"   href="#tv">Televisions</a>
+                    <a class="ad"  href="#lp">Laptops</a>
+                </div>
+            </div>
+            <p><a  class="a"  href="#mb">MOBILES</a></p>
+            <p><a  class="a"  href="#ty">TOYS</a></p>
+            <p><a class="a" href="#lg">Login</a></p>
+            <input class="text" type="text" placeholder="search">
+            <img class="img1" src="https://i0.wp.com/www.opendestinations.com/wp-content/uploads/2018/02/icon-E-commerce-and-websites.png?fit=200%2C200&ssl=1" width="60px" alt="">
+        </div>
+        
+    </nav>
+    <br><br>
+    <img class="add1" src="https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/fdf74282f59ba3df.jpg?q=60" width="1300px" height="250px" alt="">
+    <br><br>
+    <h2 class="h" id="hp">headphones..🎧</h2><hr class="line"><br>
+<div class="line1">
+    <div class="card1">
+ <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/v/u/5/k595-zen-air-48hr-battery-hd-sound-low-lag-gaming-enc-mic-bt-5-4-original-imahgcgxkmr6z4jp.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> Samsung Wireless Headphones</h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹1,999 <span>₹2,999</span>
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+    <!--  -->
+    <div class="card1">
+      <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/o/b/i/-original-imahhsdqagfyebrv.jpeg?q=70" alt="Product">
+        </div>
+
+    <div class="details">
+        <h2> ZEBRONICS Zeb-Bro C (Black) Wired </h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹229 <span>₹599</span>
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <!--  -->
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/kmccosw0/headphone/u/g/s/rockerz-450-pro-boat-original-imagf9j54dayugqg.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> boAt Rockerz 450 Pro</h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹3,999 <span>₹6,999</span> 49% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <div class="card1">
+<div class="image">
+        <img src="https://shop.aynalfahad.com/public/tenant/tenantffdae9dd-cbee-42bc-8823-e6496e296b25/2025/Aug/qGia0dpdkoH1hftWiMeYMg3zCNJHwXV4g0mIIRzf.jpg" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> philips Wireless Headphones</h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹799 <span>₹1,999</span> 60% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+</div>
+<br><br><br>
+<a class="mob" href="https://www.flipkart.com/search?q=headphones&sid=0pm%2Cfcn%2Cgc3%2Cka8&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=headphones%7CWireless+Headphones&requestId=b772ed9c-bff0-4ac9-85b0-0c494ff42197&as-searchtext=hea">MORE</a>
+<br><br>
+<h2 class="h"  id="tv">Telivisions📺</h2><hr class="line"><br><br>
+<div class="line1">
+    <div class="card1">
+ <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/p/2/1/-original-imahftz45pck32wp.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> Infinix 32GH3Q 80 cm (32 inch) QLED HD Ready Smart Google TV 2025</h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            special offer<br>
+            ₹8,999 <span>₹17,999</span> 50% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+    <!--  -->
+    <div class="card1">
+      <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/s/t/o/-original-imahgj5x4rbag3gg.jpeg?q=70" alt="Product">
+        </div>
+
+    <div class="details">
+        <h2> Acer Ultra I Series 80 cm (32 inch) HD Ready LED Smart Google TV 2025 Edition  (AR32HDJGU2841BD) </h2>
+
+        <div class="rating">
+            ★★☆☆☆
+        </div>
+
+        <p class="price">
+            ₹8,999 <span>₹19,999</span> 56% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <!--  -->
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/1/5/c/-original-imahfbpumzuum9fg.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> LG AI TV UA8200 126 cm (50 inch) Ultra HD (4K) LED Smart WebOS TV 2025<br></h2><br>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹34,999 <span>₹64,490</span> 46% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/w/m/j/-original-imahe3hywmcyx4bp.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> XIAOMI G Series 80 cm (32 inch) QLED HD Ready Smart Google TV 2025 <br></h2><br>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            ₹12,999 <span>₹26,999</span> 51% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+</div>
+<br><br><br>
+<a class="mob" href="https://www.flipkart.com/television-store?otracker=nmenu_sub_TVs%20and%20Appliances_0_Televisions&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Television">MORE</a>
+<br><br>
+<h2 class="h" id="lp">Laptops..💻</h2><hr class="line"><br><br>
+<div class="line1">
+    <div class="card1">
+ <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/o/9/k/-original-imahgry8nwkejmae.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> HP 14 AI PC Intel Core Ultra 7 155H - (16 GB/512 GB SSD/Windows 11 Home)</h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            special offer<br>
+            ₹70,099 <span>₹95,687</span> 26% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+    <!--  -->
+    <div class="card1">
+      <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/y/r/p/-original-imahgfdf5qzsphp7.jpeg?q=70" alt="Product">
+        </div>
+
+    <div class="details">
+        <h2>ASUS Gaming V16 (2025) with Office 2024 + M365 Basic*, AI PC, (i7 14th gen) </h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹96,990 <span>₹1,13,990</span> 14% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <!--  -->
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/y/m/5/-original-imahgfdfyeh6tyah.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> DELL 15 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home)<br></h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹34,999 <span>₹64,490</span> 46% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/m/2/-original-imahg4urcvjjzmwp.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2>ASUS Vivobook S14 OLED (2025), Copilot + PC, AI PC, Metal Body, Backlit Keyboard, Intel Core Ultra 5 226V <br></h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            ₹91,990 <span>₹1,16,990</span> 21% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+</div>
+<br><br><br>
+<a class="mob" href="https://www.flipkart.com/search?q=laptops&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off">MORE</a>
+<br><br>
+<h2 class="h" id="mb">Mobiles..📱</h2><hr class="line"><br><br>
+<div class="line1">
+    <div class="card1">
+ <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/p/o/-original-imahfw4aasyhherc.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> Samsung Galaxy S24 FE 5G (Mint, 128 GB)  (8 GB RAM)</h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            special offer<br>
+            ₹33,999 <span>₹59,999</span> 43% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+    <!--  -->
+    <div class="card1">
+      <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/y/y/-original-imahhjhfu7jed8kt.jpeg?q=70" alt="Product">
+        </div>
+
+    <div class="details">
+        <h2>MOTOROLA g67 power 5G (Pantone Parachute, 128 GB)  (8 GB RAM) </h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            ₹16,999 <span>₹18,990</span> 1% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <!--  -->
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> Apple iPhone 16 (Pink, 128 GB)<br></h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹69,000 <span>₹78,000</span> 26% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/m/4/-original-imahgacf8wvads6f.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2>Samsung Galaxy F07 (Green, 64 GB)  (4 GB RAM)<br></h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            ₹6,799 <span>₹9,999</span> 32% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+    
+</div><br><br><br>
+<a class="mob" href="https://www.flipkart.com/mobiles/pr?sid=tyy,4io&otracker=categorytree">MORE</a>
+<br><br>
+<h2 class="h" id="ty">Toys..🤖</h2><hr class="line"><br><br>
+<div class="line1">
+    <div class="card1">
+ <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/musical-toy/t/2/c/dancing-cactus-repeats-what-you-say-electronic-plush-toy-with-original-imahd7fptegggq2m.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2>TAPUJI Dancing Cactus Repeats What You Say,Electronic Plush Toy with Lighting,Singing Cactus Recording and Repeat Your Wor</h2>
+
+        <div class="rating">
+            ★★★☆☆
+        </div>
+
+        <p class="price">
+            special offer<br>
+            ₹1,99 <span>₹1,999</span> 90% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+    <!--  -->
+    <div class="card1">
+      <div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/musical-toy/l/a/k/kids-49-key-piano-keyboard-dc-power-option-microphone-with-usb-original-imahe8qujazrxncv.jpeg?q=70" alt="Product">
+        </div>
+
+    <div class="details">
+        <h2>VikriDa Kids 49 Key Piano Keyboard, DC Power Option+ Microphone with USB Charging Big Fun Electronics Keyboard Toy for Kids  </h2>
+
+        <div class="rating">
+            ★★☆☆☆
+        </div>
+
+        <p class="price">
+            ₹1,300 <span>₹1,999</span> 31% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <!--  -->
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/musical-toy/p/o/i/dancing-dog-with-music-flashing-lights-mega-shine-original-imafznegtthkdyyj.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2> Jugnu Dancing 360 degree Rotating Dog Toy with Music, Sound, 3D LED Light for Baby Children Kids (Black & white)  (Multicolor)<br></h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹328 <span>999</span> 67% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+
+
+    <div class="card1">
+<div class="image">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/electric-ride-on/m/2/z/lr-pobo-suv-red-45-little-rides-original-imahgs5ydezwjf7b.jpeg?q=70" alt="Product">
+    </div>
+
+    <div class="details">
+        <h2>LITTLE RIDES Pobo 12v Battery Operated Jeep for Kids, with Light & Music Big Jeep Battery Jeep Battery Operated Ride On  (Red)<br></h2>
+
+        <div class="rating">
+            ★★★★☆
+        </div>
+
+        <p class="price">
+            ₹6,999 <span>₹14,000</span> 49% off
+        </p>
+
+        <button>Add to Cart</button>
+    </div>
+    </div>
+    
+</div>
+</div><br><br><br>
+<a class="mob" href="https://www.flipkart.com/search?q=toys+for+kids&sid=tng%2Cfkw&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&as-pos=1&as-type=HISTORY&suggestionId=toys+for+kids%7CBaby+Toys&requestId=c9adc299-1934-40f1-a05a-388009322a6f">MORE</a>
+<br><br>
+<img class="foot" src="./Screenshot 2025-12-29 163310.png"  alt="">
+</body>
+</html>
